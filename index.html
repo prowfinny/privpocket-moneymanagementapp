@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrivaPocket - Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: inherit;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <pre>
+PRIVACY POLICY FOR PRIVAPOCKET
+Effective Date: May 27, 2026
+
+1. INTRODUCTION
+Welcome to PrivaPocket (hereinafter referred to as the "App"). We are fully committed to protecting your personal financial privacy through a strict "offline-first" architectural design. This Privacy Policy outlines our data handling practices, explaining why and how your information remains entirely secure on your personal device. 
+
+By installing and using this App, you agree to the terms outlined in this policy. If you do not agree with these terms, please do not use the App.
+
+2. LOG DATA AND ZERO-CLOUD ISOLATION
+The App is explicitly engineered to function without external cloud infrastructure, servers, or proprietary remote databases. All personal financial records, including but not limited to:
+- Digital wallet names and account nicknames
+- Financial balances, income entries, and expense records
+- Spending categories, custom transaction tags, and calendar histories
+- Manually recorded financial data mimicking chosen banking interfaces (e.g., OTP Bank, Banca Intesa, BPS, Raiffeisen Bank, Erste Bank, AIK Bank, Chase Bank)
+
+are processed and stored exclusively within a secure local SQLite database (via the Google Room Persistence Library) on your physical Android device. We have zero technical means of accessing, reading, intercepting, or collecting your financial logs.
+
+3. THIRD-PARTY SERVICES AND LIMITED ADVERTISING
+To keep core features free, the App integrates Google AdMob to serve limited, non-intrusive advertisements. 
+- Rewarded Ads: The App utilizes a voluntary "Rewarded Ad" feature. Users may choose to watch a 15–30 second video advertisement in exchange for temporary 1-hour access to premium features. 
+- Data Collection by Third Parties: Google AdMob may use device identifiers (such as the Google Advertising ID) to serve relevant ads and prevent fraud. These identifiers are processed according to Google’s independent Privacy Policy. The App itself does not pass any internal financial transactions, account names, or balance data to Google AdMob.
+- Premium Ad Removal: Users who purchase the one-time "Lifetime Pro Unlock" will have all third-party ad SDK initialization completely bypassed, removing all advertisements permanently.
+
+4. DEVICE PERMISSIONS USAGE
+To provide premium utility features without risking data exposure, the App requests a minimal permissions footprint:
+- Biometric Authentication (USE_BIOMETRIC): Used solely to gate access to the App interface locally using your device’s native secure hardware. Your fingerprint or facial structure data is processed entirely by the Android operating system; the App cannot read, access, or store your biometric profiles.
+- Local Storage / Camera Access: Used strictly if you choose to take or attach a photo of a physical receipt to a transaction. These image URIs link locally and never leave your device.
+
+5. DATA SAFETY AND COMPLIANCE DECLARATION
+In absolute alignment with the Google Play Developer Distribution Agreement and Data Safety mandates, we declare that:
+- No user data is collected by the developer.
+- No user data is shared with external third parties by the developer.
+- No cloud tracking or background web analytics tools are embedded in the code.
+
+6. DATA DELETION AND CONTROL
+Because your data is entirely localized, you retain absolute ownership and control. Uninstalling the application or selecting "Clear Data" within your Android System Settings will permanently and instantly wipe all local database registries, file structures, and transaction records from your device's flash storage. This action cannot be undone.
+
+7. DEVELOPER CONTACT INFORMATION
+For legal compliance, operational transparency, or privacy policy inquiries, please contact the developer:
+Developer Name: Prow Finny
+Contact Email: privpocket@gmail.com
+        </pre>
+    </div>
+</body>
+</html>
