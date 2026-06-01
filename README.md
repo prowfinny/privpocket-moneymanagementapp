@@ -5,7 +5,7 @@
 PrivPocket is a 100% offline personal-finance app for Android. All data is
 encrypted and stored on-device — no servers, no cloud, no telemetry.
 
-![version](https://img.shields.io/badge/version-1.1-a78bfa)
+![version](https://img.shields.io/badge/version-5.0-a78bfa)
 ![platform](https://img.shields.io/badge/Android-8.0%2B-38bdf8)
 ![offline](https://img.shields.io/badge/offline-100%25-2dd4a0)
 
