@@ -20,6 +20,10 @@ PrivPocket is a **100% offline** personal finance app for Android. Every number 
 
 **Settings → Apps → [your browser] → Install unknown apps → Allow**
 
+**Because app requires SMS permissions, please turn off Play Protect:**
+
+*Google Play Store → Your profile picture → Play Protect → Pause/Turn off → re-enable after install*
+
 Then [download the latest APK](https://github.com/prowfinny/privapocket-policy/releases/latest), install, and follow the setup wizard:
 `Language → Create account → Set PIN → Done`
 
